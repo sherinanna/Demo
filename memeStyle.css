@@ -1,0 +1,91 @@
+h1 {
+  text-align: center;
+  font-weight: 30px;
+  color: #385170;
+  padding: 15px;
+}
+
+label {
+  font-size: 20px;
+  padding: 15px;
+  margin: 15px;
+}
+input[type="text"] {
+  width: 80%;
+  height: 25px;
+  float: right;
+}
+
+input[type="url"] {
+  width: 80%;
+  height: 25px;
+  float: right;
+}
+input[type="submit"] {
+  padding: 15px;
+  margin: 15px;
+  border-radius: 15px;
+  font-size: large;
+  color: white;
+  background-color: #385170;
+  border: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.inputContainer {
+  background: #eaf6f6;
+}
+
+.memeBox {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  -webkit-text-stroke: 1.5px black;
+}
+
+.image {
+  background-color: rgba(247, 245, 239, 0.1);
+  width: 40%;
+}
+.image:hover {
+  opacity: 0;
+}
+.topText {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.bottomText {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  right: 0;
+}
+.removeBtn {
+  position: absolute;
+  color: whitesmoke;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 80px;
+  border: none;
+  font-weight: bolder;
+  transition: all 150ms ease-in-out;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 40%;
+  height: 100%;
+}
+
+.removeBtn:hover {
+  cursor: pointer;
+  opacity: 1;
+}
